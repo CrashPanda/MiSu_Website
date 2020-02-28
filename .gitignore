@@ -14,7 +14,8 @@ build/*
 # Exclude Text Files
 *.txt
 # Except read me
-!README.txt
+![README.txt copyright-CC-BY-NC-ND-4.0.txt licence-closed-source.txt]
+
 
 # Exclude log files
 *.log
