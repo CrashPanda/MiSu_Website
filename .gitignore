@@ -16,7 +16,7 @@ build/*
 # Except read me and licences
 !README.txt 
 !copyright-CC-BY-NC-ND-4.0.txt 
-!licence-closed-source.txt]
+!licence-closed-source.txt
 
 
 # Exclude log files
