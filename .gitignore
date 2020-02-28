@@ -1,0 +1,34 @@
+# Exclude any PSD/AI source
+*.psd
+*.ai
+#Except those in _asset folder
+!_assets/
+
+# Exclude OS X folder attributes
+.DS_Store
+
+# Exclude the build products
+build/*
+*.[oa]
+ 
+# Exclude Text Files
+*.txt
+# Except read me
+!README.txt
+
+# Exclude log files
+*.log
+
+# Exclude Fonts
+_fonts/
+
+# Exclude misc folder containing irrelivant dev files  
+_misc/
+
+# Misc
+tmp
+ 
+#WordPress
+.htaccess
+wp-config.php
+wp-content/*
