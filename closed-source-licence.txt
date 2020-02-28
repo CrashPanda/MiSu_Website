@@ -1,0 +1,12 @@
+/*******************************************************
+
+ * Copyright (C) 2019-2020 Samantha Williams yolouki@gmail.com
+
+ * This repository is part of the project: 'Live Brief: MiSu' - a website designed and prototyped as part of an accredited education programme at Falmouth University UK. 
+
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+
+ * 'Live Brief: MiSu' can not be copied and/or distributed without the express permission of the developer Samantha Williams, or the client Michelle Williams at MiSu Makes thebumblefox@gmail.com.
+
+*******************************************************/
+
