@@ -31,7 +31,10 @@ _misc/
 # Misc
 tmp
  
-#WordPress
+# WordPress
 .htaccess
 wp-config.php
 wp-content/*
+
+# Exclude XD main page html export
+mainpage_text_logo_test.html
