@@ -17,7 +17,7 @@ body{
     margin: 0;
 }
 
-/*div.block{
+block{
     background-color: #FFFFFF;
     width: 100px;
     height: 100vh;
@@ -30,45 +30,10 @@ body{
 div.txt_logo{
     <img src="_assets/_images/txt-logo.svg" alt="txt-logo">
     
-}*/
-
-//
-
-div.img-logo {
-        div.bowl{ 
-            <img src="_assets/_images/bowl.svg" alt="bowl" min-width="150"/>
-    }
-
-        div.face{
-            <img src="_assets/_images/face.svg" alt="face" min-width="150"/>
-    }
-
-        div.noodles{
-            <img src="_assets/_images/noodles.svg" alt="noodles" min-width="150"/>
-    }
-
-        div.mushroom-1{
-            <img src="_assets/_images/mushroom-1" alt="mushroom-1" min-width="150"/>
-    }
-
-        div.mushroom-2{
-            <img src="_assets/_images/mushroom-2.svg" alt="mushroom-2" min-width="150"/>
-    }
-
-        div.onion{
-            <img src="_assets/_images/onion.svg" alt="onion" min-width="150"/>
-    }
-
-        div.seaweed{
-            <img src="_assets/_images/seaweed.svg" alt="seaweed" min-width="150"/>
-    }
-
-        div.tofu{
-            <img src="_assets/_images/tofu.svg" alt="tofu" min-width="150"/>
-    }
-
 }
-
+    
 /*div.menu{
     
 }*/
+    
+   
