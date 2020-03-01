@@ -1,24 +1,66 @@
 <!doctype html>
 	<html>
-		<header>
+        <head> 
             <title>MiSu Main Page Sample by Samantha Williams</title>
-            
-            <link href="_css/misu_stylesheet.css" rel="stylesheet" type="text/css">
-            
-            <script src="_js/parallax.js" type= "text/javascript"> 
-		</header>
-                
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="_css/misu-stylesheet.css" rel="stylesheet" type="css">
+            <script src="_js/parallax.js" type= "text/javascript"></script>
+        </head>  
+        
         <body>
-            <div class="block">
-                <div class="text-logo"></div>
-                
-                <div class="img-logo"></div>
-                
-                <div class="menu"></div>
+<!-- Text Logo Home Button (fixed top right) -->
+            <div class="txt_logo">
+                <img src="_assets/_images/txt-logo.png" alt="Text Logo">
             </div>
-        </body>
-                
+
+<!-- Parallax Logo (fixed centre) -->
+            <div class="layers">
+                <img src="_assets/_images/bowl.png" alt="bowl">
+
+                <img src="_assets/_images/face.png" alt="face">
+			        
+                <img src="_assets/_images/noodles-1.png" alt="noodles-1">
+    
+                <img src="_assets/_images/noodles-2.png" alt="noodles-2">
+
+                <img src="_assets/_images/noodles-3.png" alt="noodles-3">
+
+                <img src="_assets/_images/seaweed-1.png" alt="seaweed-1">
+                                                    
+                <img src="_assets/_images/seaweed-2.png" alt="seaweed-2">
+                                                        
+                <img src="_assets/_images/onion-1.png" alt="onion-1">
+                    
+                <img src="_assets/_images/onion-2.png" alt="onion-2">
+                    
+                <img src="_assets/_images/shroom-1.png" alt="shroom-1">
+                                                       
+                <img src="_assets/_images/shroom-2.png" alt="shroom-2">
+                    
+                <img src="_assets/_images/shroom-3.png" alt="shroom-3">
+                        
+                <img src="_assets/_images/tofu-1.png" alt="tofu-1">
+                    
+                <img src="_assets/_images/tofu-2.png" alt="tofu-2">
+                    
+                <img src="_assets/_images/tofu-3.png" alt="tofu-3">
+            </div>
+            
+            <script>
+                var scene = document.getElementById('scene');
+                var parallax = new Parallax(scene);
+            </script>
+
+<!-- Navbar (fixed bottom left) -->
+            <div class="menu">
+              <img src="_assets/_images/menu.png" alt="Menu">
+            </div>            
+            
+    </body>
+        
         <footer>
-            <copyright>© MiSu Makes 2009-2020</copyright>
+            <p>© MiSu Makes 2009-2020</p>
         </footer>
+        
     </html>
