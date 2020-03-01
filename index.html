@@ -5,62 +5,61 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link href="_css/misu-stylesheet.css" rel="stylesheet" type="css">
-            <script src="_js/parallax.js" type= "text/javascript"></script>
+            <script src="_js/parallax.js" type= "text/javascript"></script>   
         </head>  
         
-        <body>
+    <body>
 <!-- Text Logo Home Button (fixed top right) -->
-            <div class="txt_logo">
-                <img src="_assets/_images/txt-logo.png" alt="Text Logo">
+            <div class="top-container">
+                <img src="_assets/_images/txt-logo.png" alt="Text Logo" id="txt-logo"> 
             </div>
 
 <!-- Parallax Logo (fixed centre) -->
-            <div class="layers">
-                <img src="_assets/_images/bowl.png" alt="bowl">
+            <div class="layers-container">
+                <img id="bowl" img src="_assets/_images/bowl.png" alt="bowl">
+                
+                <img id="face" img src="_assets/_images/face.png" alt="face">
+                
+                <img id="noodle-1" img src="_assets/_images/noodle-1.png" alt="noodle-1">
+                
+                <img id="noodle-2" img src="_assets/_images/noodle-2.png" alt="noodle-2">
+                
+                <img id="noodle-3" img src="_assets/_images/noodle-3.png" alt="noodle-3">
 
-                <img src="_assets/_images/face.png" alt="face">
-			        
-                <img src="_assets/_images/noodles-1.png" alt="noodles-1">
-    
-                <img src="_assets/_images/noodles-2.png" alt="noodles-2">
-
-                <img src="_assets/_images/noodles-3.png" alt="noodles-3">
-
-                <img src="_assets/_images/seaweed-1.png" alt="seaweed-1">
+                <img id="seaweed-1" img src="_assets/_images/seaweed-1.png" alt="seaweed-1">
                                                     
-                <img src="_assets/_images/seaweed-2.png" alt="seaweed-2">
+                <img id="seaweed-2" img src="_assets/_images/seaweed-2.png" alt="seaweed-2">
                                                         
-                <img src="_assets/_images/onion-1.png" alt="onion-1">
+                <img id="onion-1" img src="_assets/_images/onion-1.png" alt="onion-1">
                     
-                <img src="_assets/_images/onion-2.png" alt="onion-2">
+                <img id="onion-2" img src="_assets/_images/onion-2.png" alt="onion-2">
                     
-                <img src="_assets/_images/shroom-1.png" alt="shroom-1">
+                <img id="shroom-1" img src="_assets/_images/shroom-1.png" alt="shroom-1">
                                                        
-                <img src="_assets/_images/shroom-2.png" alt="shroom-2">
+                <img id="shroom-2" img src="_assets/_images/shroom-2.png" alt="shroom-2">
                     
-                <img src="_assets/_images/shroom-3.png" alt="shroom-3">
+                <img id="shroom-3" img src="_assets/_images/shroom-3.png" alt="shroom-3">
                         
-                <img src="_assets/_images/tofu-1.png" alt="tofu-1">
+                <img id="tofu-1" img src="_assets/_images/tofu-1.png" alt="tofu-1">
                     
-                <img src="_assets/_images/tofu-2.png" alt="tofu-2">
+                <img id="tofu-2" img src="_assets/_images/tofu-2.png" alt="tofu-2">
                     
-                <img src="_assets/_images/tofu-3.png" alt="tofu-3">
+                <img id="tofu-3" img src="_assets/_images/tofu-3.png" alt="tofu-3">
             </div>
-            
             <script>
-                var scene = document.getElementById('scene');
+                var layers = document.getElementById('scene');
                 var parallax = new Parallax(scene);
-            </script>
+            </script> 
 
-<!-- Navbar (fixed bottom left) -->
-            <div class="menu">
-              <img src="_assets/_images/menu.png" alt="Menu">
-            </div>            
+<!-- Navbar (fixed bottom left) 
+        <div class="bottom-container">
+                <img id="menu" img src="_assets/_images/menu.png" alt="Menu">
+            </div>   --> 
             
     </body>
-        
-        <footer>
+
+    <footer>
             <p>© MiSu Makes 2009-2020</p>
-        </footer>
+    </footer>
         
     </html>
