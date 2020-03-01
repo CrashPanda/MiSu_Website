@@ -38,3 +38,6 @@ wp-content/*
 
 # Exclude XD main page html export
 mainpage_text_logo_test.html
+
+#Exclude Dreamweaver _notes
+_notes
