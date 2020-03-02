@@ -1,0 +1,186 @@
+/* CSS Document */
+
+.layers-container{
+    /*data-depth: 0.1;*/
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    top: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+#face{
+    position: absolute;
+    z-index: 2;
+    max-height: 35%;
+    width: auto;
+    top: 50%;  
+    left: 50%;
+    margin-left: -199.5px;
+    margin-top: -70px;
+   
+}
+
+#bowl{
+    position: absolute;
+    z-index: 3;
+    height: 33%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -400px;
+    margin-top: -430px;
+}
+
+#noodle-1{
+    position: absolute;
+    z-index: 10;
+    max-height: 39%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -240px;
+    margin-top: -320px;
+}
+
+#noodle-2{
+    position: absolute;
+    z-index: 1;
+    max-height: 18%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+
+#noodle-3{
+    position: absolute;
+    z-index: 11;
+    max-height: 22%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -295px;
+    margin-top: -20px;
+}
+
+
+#seaweed-1{
+    position: absolute;
+    z-index: 3;
+    max-height: 14%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -270px;
+    margin-top: -230px;
+}
+
+
+#seaweed-2{
+    position: absolute;
+    z-index: 12;
+    max-height: 15%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -20px;
+    margin-top: -90px;
+}
+
+#onion-1{
+    position: absolute;
+    z-index: 12;
+    max-height: 6%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -320px;
+    margin-top: -10px;
+}
+
+#onion-2{
+    position: absolute;
+    z-index: 12;
+    max-height: 6%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: 240px;
+    margin-top: -200px;
+}
+
+#shroom-1{
+    position: absolute;
+    z-index: 12;
+    max-height: 8%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+#shroom-2{
+    position: absolute;
+    z-index: 15;
+    max-height: 8%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -250px;
+    margin-top: -50px;
+}
+
+#shroom-3{
+    position: absolute;
+    z-index: 15;
+    max-height: 8%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -120px;
+    margin-top: -280px;
+}
+
+#tofu-1{
+    position: absolute;
+    z-index: 1;
+    max-height: 6%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: 100px;
+    margin-top: -315px;
+}
+
+#tofu-2{
+    position: absolute;
+    z-index: 5;
+    max-height: 6%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: 240px;
+    margin-top: -30px;
+}
+
+#tofu-3{
+    position: absolute;
+    z-index: 10;
+    max-height: 6%;
+    width: auto;
+    top: 50%;         
+    left: 50%;    
+    margin-left: -360px;
+    margin-top: 90px;
+}
+
+/*.mixBlnd{
+	background-blend-mode: screen;
+}*/
+
+

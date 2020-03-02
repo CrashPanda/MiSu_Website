@@ -1,10 +1,56 @@
 @charset "UTF-8";
-/* CSS Document */
 
-.theme-light {color:#000 !important; background-color:#f0f0f0 !important}
+@font-face {
+    font-family:"Lato";
+}
 
-.theme-drips {color:#000 !important; background-color:#f0f0f0 !important}
+.paragraph{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Lato', ;
+}
 
-.theme-drips-2 {color:#000 !important; background-color:#f0f0f0 !important}
+body{
+    background-colour: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    width:1920px;
+    height:6000px;
+}
 
+.header{
+    position: fixed;
+    height: 150px;
+    width:auto;
+    top: 0px;
+}
 
+#txt-logo{ 
+    position: relative;
+    top: 70px;
+    left: 1645px;
+}
+
+.bottom-container{
+    position: fixed;
+    height: 150px;
+    width: auto;
+    top: 930px;
+}
+
+#menu{
+    position: fixed;
+    top: 950px;
+    left: 70px;    
+}
+
+.footer{
+    position: fixed;
+    top: 1000px;
+    width: 1920px;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 20;
+    colour: #8D8D8D;      
+}
