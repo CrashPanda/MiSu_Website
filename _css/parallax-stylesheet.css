@@ -1,7 +1,6 @@
 /* CSS Document */
 
 .layers-container{
-    /*data-depth: 0.1;*/
     position: relative;
     width: 1920px;
     height: 1080px;
@@ -33,9 +32,9 @@
     margin-top: -430px;
 }
 
-#noodle-1{
+#noodle1{
     position: absolute;
-    z-index: 10;
+    z-index: 9;
     max-height: 39%;
     width: auto;
     top: 50%;         
@@ -44,7 +43,7 @@
     margin-top: -320px;
 }
 
-#noodle-2{
+#noodle2{
     position: absolute;
     z-index: 1;
     max-height: 18%;
@@ -56,9 +55,9 @@
 }
 
 
-#noodle-3{
+#noodle3{
     position: absolute;
-    z-index: 11;
+    z-index: 14;
     max-height: 22%;
     width: auto;
     top: 50%;         
@@ -68,9 +67,9 @@
 }
 
 
-#seaweed-1{
+#seaweed1{
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     max-height: 14%;
     width: auto;
     top: 50%;         
@@ -80,9 +79,9 @@
 }
 
 
-#seaweed-2{
+#seaweed2{
     position: absolute;
-    z-index: 12;
+    z-index: 11;
     max-height: 15%;
     width: auto;
     top: 50%;         
@@ -91,9 +90,9 @@
     margin-top: -90px;
 }
 
-#onion-1{
+#onion1{
     position: absolute;
-    z-index: 12;
+    z-index: 6;
     max-height: 6%;
     width: auto;
     top: 50%;         
@@ -102,9 +101,9 @@
     margin-top: -10px;
 }
 
-#onion-2{
+#onion2{
     position: absolute;
-    z-index: 12;
+    z-index: 10;
     max-height: 6%;
     width: auto;
     top: 50%;         
@@ -113,9 +112,9 @@
     margin-top: -200px;
 }
 
-#shroom-1{
+#shroom1{
     position: absolute;
-    z-index: 12;
+    z-index: 7;
     max-height: 8%;
     width: auto;
     top: 50%;         
@@ -124,7 +123,7 @@
     margin-top: -20px;
 }
 
-#shroom-2{
+#shroom2{
     position: absolute;
     z-index: 15;
     max-height: 8%;
@@ -135,9 +134,9 @@
     margin-top: -50px;
 }
 
-#shroom-3{
+#shroom3{
     position: absolute;
-    z-index: 15;
+    z-index: 12;
     max-height: 8%;
     width: auto;
     top: 50%;         
@@ -146,9 +145,9 @@
     margin-top: -280px;
 }
 
-#tofu-1{
+#tofu1{
     position: absolute;
-    z-index: 1;
+    z-index: 5;
     max-height: 6%;
     width: auto;
     top: 50%;         
@@ -157,9 +156,9 @@
     margin-top: -315px;
 }
 
-#tofu-2{
+#tofu2{
     position: absolute;
-    z-index: 5;
+    z-index: 8;
     max-height: 6%;
     width: auto;
     top: 50%;         
@@ -168,9 +167,9 @@
     margin-top: -30px;
 }
 
-#tofu-3{
+#tofu3{
     position: absolute;
-    z-index: 10;
+    z-index: 13;
     max-height: 6%;
     width: auto;
     top: 50%;         
@@ -179,8 +178,5 @@
     margin-top: 90px;
 }
 
-/*.mixBlnd{
-	background-blend-mode: screen;
-}*/
 
 
