@@ -1,0 +1,25 @@
+{
+    "name": "Creative Commons Attribution-ShareAlike (CC-BY-SA)",
+    "priority": 1,
+    "available": true,
+    "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "description": "This creative commons license is very similar to the regular Attribution license, but requires you to release all derivative works under this same license.",
+    "categories": [
+        "public",
+        "data",
+        "by",
+        "sa"
+    ],
+    "labels": [
+        "public",
+        "cc",
+        "by",
+        "sa",
+        "opendata"
+    ],
+    "key": "cc-by-sa"
+}
+
+
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)

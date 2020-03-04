@@ -1,0 +1,3 @@
+https://ufal.github.io/public-license-selector/
+
+http://choosealicense.com/

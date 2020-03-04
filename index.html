@@ -2,8 +2,10 @@
 	<html>
         <head> 
             <meta charset="UTF-8">
-            
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Behavioural Meta Data) -->           
+            <meta name="apple-mobile-web-app-capable" content="yes">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
             
             <title>MiSu Main Page Sample by Samantha Williams</title>
             
@@ -12,10 +14,9 @@
             <link href="_css/theme.css" rel="stylesheet" type="text/css">
             
             <link href="_css/parallax-stylesheet.css" rel="stylesheet" type="text/css">
-            
+<!-- Scripts -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-            
-            <link href="_js/parallax.js">
+            <script src="_js/parallax.js"></script>
         </head>
         <body>
 <!-- Text Logo Home Button (fixed top right) -->
@@ -24,46 +25,54 @@
             </div>
 
 <!-- Parallax Logo (fixed centre) -->
-            <div class="layers-container" id="js-scene">
-                <div class="foreground">
-                    <img id="noodle3" data-depth="1.20" img src="_assets/_images/noodle-3.png" alt="noodle-3">
+            <div class="scene">
+                <div class="foreground-layer">
+                    <div class="item"> 
+                        <img id="noodle-3" img src="_assets/_images/noodle-3.png" data-depth="1.20" alt="noodle 3">
+                        
+                        <img id="tofu-3" img src="_assets/_images/tofu-3.png" data-depth="1.20" alt="tofu 3">
                     
-                    <img id="tofu3" data-depth="1.20" img src="_assets/_images/tofu-3.png" alt="tofu-3">
+                        <img id="shroom-3" img src="_assets/_images/shroom-3.png" data-depth="1.20" alt="shroom 3">
                     
-                    <img id="shroom3" data-depth="1.20" img src="_assets/_images/shroom-3.png" alt="shroom-3">
+                        <img id="seaweed-2" img src="_assets/_images/seaweed-2.png" data-depth="1.20" alt="seaweed 2">
+                    </div>
+                </div>    
+                <div class="middleground-Layer">
+                    <div class="item">
+                        <img id="shroom-2" img src="_assets/_images/shroom-2.png" data-depth="0.85" alt="shroom 2">
+                        
+                        <img id="onion-2" img src="_assets/_images/onion-2.png" data-depth="0.85" alt="onion 2">
                     
-                    <img id="seaweed2" data-depth="1.20" img src="_assets/_images/seaweed-2.png" alt="seaweed-2">
-                </div>   
-                <div class="middleground">
-                    <img id="shroom2" data-depth="0.85" img src="_assets/_images/shroom-2.png" alt="shroom-2">
-
-                    <img id="onion2" data-depth="0.85" img src="_assets/_images/onion-2.png" alt="onion-2">
+                        <img id="noodle-1" img src="_assets/_images/noodle-1.png" data-depth="0.85" alt="noodle">
                     
-                    <img id="noodle1" data-depth="0.85" img src="_assets/_images/noodle-1.png" alt="noodle-1">
+                        <img id="tofu-2" img src="_assets/_images/tofu-2.png" data-depth="0.85" alt="tofu 2">
                     
-                    <img id="tofu2" data-depth="0.85" img src="_assets/_images/tofu-2.png" alt="tofu-2">
-                    
-                    <img id="shroom1" data-depth="0.85" img src="_assets/_images/shroom-1.png" alt="shroom-1">
+                        <img id="shroom-1" img src="_assets/_images/shroom-1.png" data-depth="0.85" alt="shroom 1">
+                    </div>
                 </div>
-                <div class="background"> 
-                    <img id="onion1" data-depth="0.70" img src="_assets/_images/onion-1.png" alt="onion-1">
-                    
-                    <img id="tofu1" data-depth="0.70" img src="_assets/_images/tofu-1.png" alt="tofu-1">
+                <div class="background-Layer" id="layer"> 
+                    <div class="item">
+                        <img id="onion-1" imgsrc="_assets/_images/onion-1.png" data-depth="0.70" akt="onion 1">
 
-                    <img id="seaweed1" data-depth="0.70" img src="_assets/_images/seaweed-1.png" alt="seaweed-1">
+                        <img id="tofu-1" img src="_assets/_images/tofu-1.png" data-depth="0.70" alt="tofu 1">
                     
-                    <img id="noodle2" data-depth="0.70" img src="_assets/_images/noodle-2.png" alt="noodle-2">
+                        <img id="seaweed-1" img src="_assets/_images/seaweed-1.png" data-depth="0.70" alt="seaweed 1">
+                    
+                        <img id="noodle-2" img src="_assets/_images/noodle-2.png" data-depth="0.70" alt="noodle 2">
+                    
+                        <img id="bowl" img src="_assets/_images/bowl.png" data-depth="0.70" alt="bowl">
+                    </div>
                 </div>
-                <div class="point">
-                     <img id="bowl" data-depth="0.65" img src="_assets/_images/bowl.png" alt="bowl">
-                    
-                    <img id="face" data-depth="0.00" img src="_assets/_images/face.png" alt="face">
+                <div class="point" id="layer">
+                    <div class="item">
+                        <img id="face" img src="_assets/_images/face.png" data-depth="0.70" alt="face">
+                    </div>
                 </div>
             </div>
 
 <!-- Navbar (fixed bottom left) -->
             <div class="bottom-container">
-                <img id="menu" img src="_assets/_images/menu.png" alt="Menu">
+                <img id="menu" src="_assets/_images/menu.png" alt="Menu">
             </div>   
 
             <div class="footer">
