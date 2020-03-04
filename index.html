@@ -1,82 +1,64 @@
 <!doctype html>
 	<html>
         <head> 
-            <meta charset="UTF-8">
-<!-- Behavioural Meta Data) -->           
-            <meta name="apple-mobile-web-app-capable" content="yes">
-
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
-            
+            <!-- Behavioural Meta Data) --> 
             <title>MiSu Main Page Sample by Samantha Williams</title>
-            
+            <meta charset="UTF-8">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
             <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap" rel="stylesheet">
-            
             <link href="_css/theme.css" rel="stylesheet" type="text/css">
-            
             <link href="_css/parallax-stylesheet.css" rel="stylesheet" type="text/css">
-<!-- Scripts -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-            <script src="_js/parallax.js"></script>
         </head>
         <body>
-<!-- Text Logo Home Button (fixed top right) -->
-            <div class="header">
-                <img src="_assets/_images/txt-logo.png" alt="Text Logo" id="txt-logo"> 
-            </div>
-
-<!-- Parallax Logo (fixed centre) -->
-            <div class="scene">
-                <div class="foreground-layer">
-                    <div class="item"> 
-                        <img id="noodle-3" img src="_assets/_images/noodle-3.png" data-depth="1.20" alt="noodle 3">
-                        
-                        <img id="tofu-3" img src="_assets/_images/tofu-3.png" data-depth="1.20" alt="tofu 3">
-                    
-                        <img id="shroom-3" img src="_assets/_images/shroom-3.png" data-depth="1.20" alt="shroom 3">
-                    
-                        <img id="seaweed-2" img src="_assets/_images/seaweed-2.png" data-depth="1.20" alt="seaweed 2">
+            <header><!-- Text Logo Home Button (fixed top right) -->
+              <div class="header-container">
+                    <img id="txt-logo" img src="_assets/_images/txt-logo.png" alt="Text Logo"> 
+                </div>
+            </header>
+            <main>
+                <div class="scene">
+                    <div class="foreground-layer">
+                        <img id="noodle-3" img src="_assets/_images/noodle-3.png" data-depth="1.20" alt="Noodle 3">
+                        <img id="tofu-3" img src="_assets/_images/tofu-3.png" data-depth="1.20" alt="Tofu 3">
+                        <img id="shroom-3" img src="_assets/_images/shroom-3.png" data-depth="1.20" alt="Shroom 3">
+                        <img id="seaweed-2" img src="_assets/_images/seaweed-2.png" data-depth="1.20" alt="Seaweed 2">
                     </div>
-                </div>    
-                <div class="middleground-Layer">
-                    <div class="item">
-                        <img id="shroom-2" img src="_assets/_images/shroom-2.png" data-depth="0.85" alt="shroom 2">
-                        
-                        <img id="onion-2" img src="_assets/_images/onion-2.png" data-depth="0.85" alt="onion 2">
-                    
-                        <img id="noodle-1" img src="_assets/_images/noodle-1.png" data-depth="0.85" alt="noodle">
-                    
-                        <img id="tofu-2" img src="_assets/_images/tofu-2.png" data-depth="0.85" alt="tofu 2">
-                    
-                        <img id="shroom-1" img src="_assets/_images/shroom-1.png" data-depth="0.85" alt="shroom 1">
+                    <div class="middleground-layer">
+                        <img id="shroom-2" img src="_assets/_images/shroom-2.png" data-depth="1.20" alt="Shroom 2">
+                        <img id="onion-2" img src="/_assets/_images/onion-2.png" data-depth="1.20" alt="Onion 2">
+                        <img id="noodle-1" img src="_assets/_images/noodle-1.png" data-depth="1.20" alt="Noodle 1">
+                        <img id="tofu-2" img src="_assets/_images/tofu-2.png" data-depth="1.20" alt="Tofu 2">
+                        <img id="shroom-1" img src="/_assets/_images/shroom-1.png" data-depth="1.20" alt="Shroom 1">
+                    </div>
+                    <div class="middleground-layer">
+                        <img id="onion-1" img src="_assets/_images/onion-1.png" data-depth="1.20" alt="Onion 1">
+                        <img id="tofu-1" img src="_assets/_images/tofu-1.png" data-depth="1.20" alt="Tofu 1">
+                        <img id="seaweed-1" img src="_assets/_images/seaweed-1.png" data-depth="1.20" alt="Seaweed 1">
+                        <img id="noodle-2" img src="_assets/_images/noodle-2.png" data-depth="1.20" alt="Noodle 2">
+                        <img id="bowl" img src="_assets/_images/bowl.png" data-depth="1.20" alt="Bowl">
+                    </div>
+                    <div class="point" id="layer">
+                        <img id="face" img src="_assets/_images/face.png" data-depth="1.20" alt="Face">
+                    </div>    
+                </div>
+            </main>
+            <footer>
+                <div class="footer-container">
+                    <!-- Navbar (fixed bottom left) -->
+                    <div class="menu">
+                        <img id="burger" src="_assets/_images/burger.png" alt="Burger">
+                        <img id="contact" src="_assets/_images/contact.png" alt="Contact">
+                        <img id="cart" src="_assets/_images/cart.png" alt="Cart">
+                    </div>  
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <p>© MiSu Makes 2019-2020</p>
                     </div>
                 </div>
-                <div class="background-Layer" id="layer"> 
-                    <div class="item">
-                        <img id="onion-1" img src="_assets/_images/onion-1.png" data-depth="0.70" alt="onion 1">
-
-                        <img id="tofu-1" img src="_assets/_images/tofu-1.png" data-depth="0.70" alt="tofu 1">
-                    
-                        <img id="seaweed-1" img src="_assets/_images/seaweed-1.png" data-depth="0.70" alt="seaweed 1">
-                    
-                        <img id="noodle-2" img src="_assets/_images/noodle-2.png" data-depth="0.70" alt="noodle 2">
-                    
-                        <img id="bowl" img src="_assets/_images/bowl.png" data-depth="0.70" alt="bowl">
-                    </div>
-                </div>
-                <div class="point" id="layer">
-                    <div class="item">
-                        <img id="face" img src="_assets/_images/face.png" data-depth="0.70" alt="face">
-                    </div>
-                </div>
-            </div>
-
-<!-- Navbar (fixed bottom left) -->
-            <div class="bottom-container">
-                <img id="menu" src="_assets/_images/menu.png" alt="Menu">
-            </div>   
-
-            <div class="footer">
-                <p>© MiSu Makes 2019-2020</p>
-            </div>
+            </footer>
         </body>
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script src="_js/parallax.js"></script>
     </html>

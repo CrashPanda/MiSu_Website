@@ -20,6 +20,12 @@
     960*/
 }
 
+/*
+.item{
+    position: absolute;
+}
+*/
+
 #face{
     position: absolute;
     z-index: 2;
