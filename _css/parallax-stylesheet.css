@@ -1,173 +1,139 @@
-/* CSS Document */
-
-.scene{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-    top: 0px;
-    display: flex;
-    /*
+  .parallax {
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
-    justify-content: center;
+            justify-content: center;
     -webkit-box-align: center;
-    align-items: center;
+            align-items: center;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    540
-    960*/
+  }
+
+  .layer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    justify-content: center;
 }
 
-/*
-.item{
+  .noodle-2{
     position: absolute;
-}
-*/
-
-#face{
-    position: absolute;
-    z-index: 2;
-    max-height: 35%;
+    max-height: 18vh;
     width: auto;
-    top: calc(52% - 70px);
-    left: calc(50% - 232.5px);
+    top: calc(50% - 18px);
+    left: calc(50% + 135px);
 }
 
-
-#bowl{
+  .tofu-1{
     position: absolute;
-    z-index: 3;
-    height: 34%;
+    max-height: 6vh;
     width: auto;
-    top: calc(52% - 435px);
-    left: calc(50% - 435px);
+    top: calc(50% - 318px);
+    left: calc(50% + 116px);
 }
 
-#noodle-1{
+ .onion-1{
     position: absolute;
-    z-index: 9;
-    max-height: 39%;
-    width: auto;
-    top: calc(52% - 322px);
-    left: calc(50% - 274px);
-    }
-
-#noodle-2{
-    position: absolute;
-    z-index: 1;
-    max-height: 18%;
-    width: auto;
-    top: calc(52% - 18px);
-    left: calc(50% + 88px);
-}
-
-#noodle-3{
-    position: absolute;
-    z-index: 14;
-    max-height: 20%;
-    top: calc(52% + 6px);
-    left: calc(50% - 316px);
-    margin-top: -20px;
-}
-
-
-#seaweed-1{
-    position: absolute;
-    z-index: 4;
-    max-height: 14%;
-    top: calc(52% + 2px);
-    left: calc(50% - 306px);
-    margin-top: -230px;
-}
-
-
-#seaweed-2{
-    position: absolute;
-    z-index: 11;
-    max-height: 15%;
-    width: auto;
-    top: 50%;         
-    top: calc(52%);
-    left: calc(50% - 58px);
-    margin-top: -90px;
-}
-
-#onion-1{
-    position: absolute;
-    z-index: 6;
-    max-height: 6%;
-    top: calc(52% + 2px);
-    left: calc(50% - 350px);
-    margin-top: -10px;
-}
-
-#onion-2{
-    position: absolute;
-    z-index: 10;
-    max-height: 6%;
-    top: calc(50% + 20px);
-    left: calc(50% + 208px);
-    margin-top: -200px;
-}
-
-#shroom-1{
-    position: absolute;
-    z-index: 7;
-    max-height: 8%;
-    top: calc(52%);
-    left: calc(50% + 16px);
-    margin-top: -20px;
-}
-
-#shroom-2{
-    position: absolute;
-    z-index: 15;
-    max-height: 8%;
-    top: calc(50% + 20px);
-    left: calc(50% - 286px);
-    margin-top: -50px;
-}
-
-#shroom-3{
-    position: absolute;
-    z-index: 12;
-    max-height: 8%;
-    top: calc(52% + 2px);
-    left: calc(50% - 121px);
-    margin-top: -280px;
-}
-
-#tofu-1{
-    position: absolute;
-    z-index: 5;
-    max-height: 6%;
+    max-height: 6vh;
     width: auto;
     top: calc(50% + 14px);
-    left: calc(50% + 72px);
-    margin-top: -315px;
+    left: calc(50% - 320px);
 }
 
-#tofu-2{
+  .bowl{
     position: absolute;
-    z-index: 8;
-    max-height: 6%;
-    top: calc(52% + 10px);
-    left: calc(50% + 208px);
-    margin-top: -30px;
-}
-
-#tofu-3{
-    position: absolute;
-    z-index: 13;
-    max-height: 6%;
+    height: 34vh;
     width: auto;
-    top: 50%;         
-    top: calc(52% + 80px);
-    left: calc(50% - 390px);
+    top: calc(50% - 440px);
+    left: calc(50% - 410px);
 }
- 
 
+  .seaweed-1{
+    position: absolute;
+    max-height: 14vh;
+    max-width: auto;
+    top: calc(50% - 234px);
+    left: calc(50% - 265px);
+}
 
+  .face{
+    position: absolute;
+    max-height: 35vh;
+    width: auto;
+    top: calc(50% - 70px);
+    left: calc(50% - 189px);
+}
 
+  .shroom-1{
+    position: absolute;
+    max-height: 8vh;
+    width: auto;
+    top: calc(50% - 20px);
+    left: calc(50% + 64px);
+}
+
+  .tofu-2{
+    position: absolute;
+    max-height: 6vh;
+    width: auto;
+    top: calc(50% - 26px);
+    left: calc(50% + 256px);
+}
+
+  .noodle-1{
+    position: absolute;
+    max-height: 39vh;
+    width: auto;
+    top: calc(50% - 322px);
+    left: calc(50% - 235px);
+}
+
+  .onion-2{
+    position: absolute;
+    max-height: 6vh;
+    width: auto;
+    top: calc(50% - 206px);
+    left: calc(50% + 258px);
+}
+
+  .seaweed-2{
+    position: absolute;
+    max-height: 15vh;
+    width: auto;        
+    top: calc(50% - 88px);
+    left: calc(50% - 10px);
+}
+
+  .shroom-3{
+    position: absolute;
+    max-height: 8vh;
+    width: auto;
+    top: calc(50% - 282px);
+    left: calc(50% - 114px);
+}
+
+  .tofu-3{
+    position: absolute;
+    max-height: 6vh;
+    width: auto;         
+    top: calc(50% + 108px);
+    left: calc(50% - 360px);
+}
+
+  .noodle-3{
+    position: absolute;
+    max-height: 20vh;
+      width: auto;
+    top: calc(50% - 14px);
+    left: calc(50% - 276px);
+}
+
+  .shroom-2{
+    position: absolute;
+    max-height: 8vh;
+    width: auto;
+    top: calc(50% - 46px);
+    left: calc(50% - 246px);
+}

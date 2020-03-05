@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
     background-color: #FFFFFF;
     margin: 0;
@@ -77,3 +76,63 @@ footer p{
     padding-right: 65px;
 }
 */
+
+/* @font-face {
+    font-family:"Lato";
+} */
+
+/*.paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    /* font-family: 'Lato', ;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.item {
+    /* position: absolute; 
+}
+
+header {
+    justify-content: flex-end;
+    display: flex;
+    padding: 19px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+footer {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 20px;
+    bottom: 0;
+    color: #8D8D8D;
+    display: flex;
+    height: 44px;
+    position: fixed;
+    padding: 35px;
+    width: 100%;
+    justify-items: flex-end;
+    flex-direction: row;
+}
+
+footer p {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 65px;
+}*/
